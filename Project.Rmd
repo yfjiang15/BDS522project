@@ -29,7 +29,7 @@ The United States has long been cognized as the "paradise" of immigrants, and re
 
 #### Data
 
-I use the data recorded from DATAUSA (https://datausa.io/), an open-source data website for public. I found the average wage, median property value (living cost), healthcare insured rate/number (healthcare), and food danger (living quality) to be independent variables for Immigration number, the dependent variables.
+I use the data recorded in 2015 from DATAUSA (https://datausa.io/), an open-source data website for public. I found the average wage, median property value (living cost), healthcare insured rate/number (healthcare), and food danger (living quality) to be independent variables for Immigration number, the dependent variables.
 
 Here is the summary of the dataset I am using in this analysis.
 
