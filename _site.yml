@@ -1,0 +1,11 @@
+name: "BDS 522 Website"
+output_dir: "."
+navbar:
+  title: "BDS 522 Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Project"
+      href: Project.html
+    - text: "About"
+      href: About.html

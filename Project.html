@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Project</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">BDS 522 Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="Project.html">Project</a>
+</li>
+<li>
+  <a href="About.html">About</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Project</h1>
+
+</div>
+
+
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<div id="motivations" class="section level4">
+<h4>Motivations</h4>
+<p>My project will be talking about the immigration preferences of different states in the United States. I was initially motivated by some of my friends from China, my home country, who were considering to permanently stay in the US. As well known, the United States is an immigration country of freedom, and it welcomes all the dream chasers and whoever wants to pursue any success. I am interested in studying which kinds of factors will influence immigrants’ preferences when choosing a certain state to live. Are there any particular factors that really affect their choices? Which aspects may closely correlate with the openness of the state?</p>
+</div>
+<div id="literature-review" class="section level4">
+<h4>Literature Review</h4>
+<p>The United States has long been cognized as the “paradise” of immigrants, and recent people rely on more factors other than the economic condition of an area when they are choosing a residential place. According to an article by Business Insider, they have concerns about opportunities for earnings, health risks, homeownership, and openness for non-English speakers. Also, the Better Life Index, accounted in May 2011 by the OECD shows the index of housing, health, income, and jobs, as well as communities to better measure how people lead a happier life. However, critiques have also been raised by scholars on how much accuracy can OECD index actually illustrate, which further leads to my research question of how well can these parameter set work with immigrants? In a background setting within the United States, what indicators are potentially adjusting people’s decisions most?</p>
+</div>
+</div>
+<div id="analysis" class="section level3">
+<h3>Analysis</h3>
+<div id="data" class="section level4">
+<h4>Data</h4>
+<p>I use the data recorded from DATAUSA (<a href="https://datausa.io/" class="uri">https://datausa.io/</a>), an open-source data website for public. I found the average wage, median property value (living cost), healthcare insured rate/number (healthcare), and food danger (living quality) to be independent variables for Immigration number, the dependent variables.</p>
+<p>Here is the summary of the dataset I am using in this analysis.</p>
+<pre class="r"><code>summary(data)</code></pre>
+<pre><code>##         State            id        AveWage      PropertyValue   
+##  Alabama   : 1   04000US01: 1   Min.   :25186   Min.   :103100  
+##  Alaska    : 1   04000US02: 1   1st Qu.:42119   1st Qu.:135300  
+##  Arizona   : 1   04000US04: 1   Median :44226   Median :165900  
+##  Arkansas  : 1   04000US05: 1   Mean   :46321   Mean   :196108  
+##  California: 1   04000US06: 1   3rd Qu.:49865   3rd Qu.:237475  
+##  Colorado  : 1   04000US08: 1   Max.   :73861   Max.   :515300  
+##  (Other)   :46   (Other)  :46                                   
+##     Insured         FoodDanger  Immigration       Population      
+##  Min.   :  481134   high:24    Min.   :   519   Min.   :  579679  
+##  1st Qu.: 1470015   low :28    1st Qu.:  2936   1st Qu.: 1792702  
+##  Median : 3638425              Median :  6584   Median : 4168293  
+##  Mean   : 5123120              Mean   : 20163   Mean   : 6155733  
+##  3rd Qu.: 6010183              3rd Qu.: 18160   3rd Qu.: 6775556  
+##  Max.   :30737171              Max.   :209568   Max.   :38421464  
+##                                                                   
+##     Prop_Imm        
+##  Min.   :0.0004245  
+##  1st Qu.:0.0012667  
+##  Median :0.0019162  
+##  Mean   :0.0023771  
+##  3rd Qu.:0.0031948  
+##  Max.   :0.0066085  
+## </code></pre>
+<p>To make it clear, my dataset includes 52 observables (50 states plus District of Columbia and Puerto Rico) in 12 attributes. The relevant variables are: average wage (AveWage), property value(PropertyValue), health insurance coverage(Insured), and food Risk (FoodDanger). The dependent variable is coded as Immigration, which refers to the population of immigrants.</p>
+<p>*Note: all the variables are numeric expect for FoodDanger. The original data is in a percentage form, which means the percentage of unsafe food. Due to the small variance of original data, I convert this variable into a factor variable. Those states with a percentage over 15 (the mean), they are labeled as “high”, otherwise, “low”.</p>
+</div>
+<div id="methods-and-results" class="section level4">
+<h4>Methods and Results</h4>
+<p>For methods chosen to analyze the dataset, basically, regressions are used in my project, including both simple linear regression and multiple regressions.</p>
+<p>My general null hypothesis is <span class="math inline">\(\mu_0\)</span>: average wage, property value, health insurance coverage and food risk all have influences on preferences of immigrants. In particular:</p>
+<p><span class="math inline">\(\mu_a\)</span>: Health insurance is relatively the most influential factor.</p>
+<p><span class="math inline">\(\mu_b\)</span>: Income level is more important for immigrants comparing with property value.</p>
+<p><span class="math inline">\(\mu_c\)</span>: People are more likely to stay in a state with lower food risks.</p>
+<p>First, I run a multiple regression containing all the variables and linear regressions in terms of each variable.</p>
+<pre><code>## 
+## Call:
+## lm(formula = Immigration ~ AveWage + PropertyValue + Insured + 
+##     factor(FoodDanger))
+## 
+## Residuals:
+##    Min     1Q Median     3Q    Max 
+## -32342  -7067   1306   6742  39689 
+## 
+## Coefficients:
+##                         Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)           -1.073e+04  1.258e+04  -0.853  0.39805    
+## AveWage               -4.634e-01  3.576e-01  -1.296  0.20128    
+## PropertyValue          9.101e-02  2.980e-02   3.054  0.00371 ** 
+## Insured                6.398e-03  3.506e-04  18.249  &lt; 2e-16 ***
+## factor(FoodDanger)low  3.211e+03  4.193e+03   0.766  0.44765    
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 12670 on 47 degrees of freedom
+## Multiple R-squared:  0.8986, Adjusted R-squared:  0.8899 
+## F-statistic: 104.1 on 4 and 47 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p><img src="Project_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>From the results shown, we have key findings that:</p>
+<ol style="list-style-type: decimal">
+<li><p>it is plausible to say health insurance is more influential than the other factors as it has a significant correlation with immigration. The slope is 0.0064, which states a weak relationship. <span class="math inline">\(\mu_a\)</span> is true.</p></li>
+<li><p>Average wage shows a negative relationship with immigration, which is not significant, while the property value has a weak, positive relationship with immigration. The slope is about 0.091. <span class="math inline">\(\mu_b\)</span> is rejected.</p></li>
+<li><p>Food risk may not be that important for immigrants when choosing the state. <span class="math inline">\(\mu_c\)</span> is rejected.</p></li>
+<li><p>Separately, the health insurance coverage manifests the most salient relationship with immigration. They are positively correlated.</p></li>
+</ol>
+<p>Next, the other three variables are measured with “food danger” factor variable. Plots are as following:</p>
+<p><img src="Project_files/figure-html/unnamed-chunk-3-1.png" width="672" /><img src="Project_files/figure-html/unnamed-chunk-3-2.png" width="672" /><img src="Project_files/figure-html/unnamed-chunk-3-3.png" width="672" /></p>
+<p>The plots are not sufficient to provide evidence for a relationship between food danger and immigration. It is even observed that in high-risk areas, average wage and property value show a stronger positive relationship with immigration. A possible reason behind is, a bigger population could give rise to more food issues.</p>
+</div>
+</div>
+<div id="conclusion" class="section level3">
+<h3>Conclusion</h3>
+<p>From the data and results we get, we can conclude that: all the four variables involved here (average wage, Property Value, Health insurance coverage, and food danger) are not good predictors of immigrants’ preference when choosing the state for residence. Among these, however, immigrants care most about the insurance level, which indicates the power of living support from the government. The wage and property values are not salient probability because the immigrants have relatives or self-communities in a certain area that can provide pecuniary support. Besides, the food problem may not be visible enough for immigrants to consider. That is, all the states share a similar level of food insecurity (around 15) with a small variance (around 0.2).</p>
+<pre><code>## [1] 0.2533937</code></pre>
+<p>As shown, the variance is so close to 0 that it could not make food issue relevant to immigration population.</p>
+<p>Hence, high living cost might not be an obstacle for immigrants to come, while poor insurance support might be.</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
